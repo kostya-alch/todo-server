@@ -1,0 +1,5 @@
+{
+   "serverPort": 5000,
+   "dbUrl": "mongodb+srv://alch:1212@cluster1.erxnp.mongodb.net/Todo?retryWrites=true&w=majority",
+   "secretKey": "mern-secret-key"
+}
