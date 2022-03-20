@@ -63,7 +63,7 @@ router.post(
             return res.json({ message: 'Такого email не существует' });
          }
 
-         const isMatchPassword = bcrypt.compare(password, user.password);
+         const isMatchPassword = await bcrypt.compare(password, user.password);
 
          if (!isMatchPassword) {
             return res.json({ message: 'Пароли не совпадают' });
